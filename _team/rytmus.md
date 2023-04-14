@@ -3,7 +3,7 @@ title: "Rytmus"
 date: 2018-11-19T10:47:58+10:00
 image: "images/team/rytmus-unsplash.png"
 jobtitle: "Právní kancelář"
-website: "https://rytmus.org/"
+websiteurl: "https://rytmus.org/"
 promoted: true
 weight: 1
 ---

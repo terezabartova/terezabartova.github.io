@@ -1,5 +1,6 @@
 baseurl: '/'
 permalink: pretty
+relative_permalinks: false
 title: 'Tereza Bártová'
 
 logo:
