@@ -14,8 +14,7 @@ description: Kontakt
 | Středa    | 8:30 - 16:30 |
 | Čtvrtek   | 8:30 - 16:30 |
 | Pátek     | 8:30 - 16:30 |
-| Sobota    | Po předchozí domluvě nebo v naléhavém případě  |
-| Neděle    | Po předchozí domluvě nebo v naléhavém případě  |
+| So/Ne     | Po předchozí domluvě nebo v naléhavém případě |
 | **Ostatní Info**   |   |
 |IČO | 17649714 |
 |Datová schránka | 5b4utfj |
