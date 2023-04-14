@@ -6,8 +6,6 @@ weight: 1
 
 Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
 
-![Prava osob](/images/illustrations/terka.jpeg)
-
 # Objectives
 
 Financial accounting and financial reporting are often used as synonyms.
