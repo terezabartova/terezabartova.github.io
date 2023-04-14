@@ -1,4 +1,5 @@
-baseurl: '/'
+url: 'terezabartova.github.io'
+baseurl: 'terezabartova.github.io'
 permalink: pretty
 title: 'Tereza Bártová'
 
