@@ -2,7 +2,7 @@
 title: Domácí stránka
 layout: home
 description: Domácí stránka
-intro_image: "images/illustrations/terka2.png"
+intro_image: "images/illustrations/terka4.png"
 intro_image_absolute: false
 intro_image_hide_on_mobile: false
 show_call_box: true
