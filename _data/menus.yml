@@ -1,0 +1,18 @@
+main:
+  - name: "Specializace"
+    url: "/services/"
+    weight: 2
+  - name: "Spolupráce"
+    url: "/team/"
+    weight: 3
+  - name: "O mně"
+    url: "/about/"
+    weight: 4
+  - name: "Kontakt"
+    url: "/contact/"
+    weight: 5
+
+footer:
+  - name: "Kontakt"
+    url: "/contact/"
+    weight: 2

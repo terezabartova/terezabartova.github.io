@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Konzultace zdarma",
+    "description": "Krátká konzultace zdarma pro nové klienty.",
+    "image": {
+      "url": "images/features/konzultace.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Pro bono",
+    "description": "Pro tvůrce téhle prezentace :)",
+    "image": {
+      "url": "images/features/pro-bono.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Todo",
+    "description": "Todo",
+    "image": {
+      "url": "images/features/todo.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+
+]
