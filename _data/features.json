@@ -1,27 +1,27 @@
 [
   {
     "title": "Konzultace zdarma",
-    "description": "Krátká konzultace zdarma pro nové klienty.",
+    "description": "Pro nové klienty.",
     "image": {
-      "url": "images/features/konzultace.svg",
+      "url": "images/love/hope.png",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Pro bono",
-    "description": "Pro tvůrce téhle prezentace :)",
+    "title": "Lidská práva",
+    "description": "Lidský přístup.",
     "image": {
-      "url": "images/features/pro-bono.svg",
+      "url": "images/love/family.png",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Todo",
-    "description": "Todo",
+    "title": "Naděje",
+    "description": "Svoboda.",
     "image": {
-      "url": "images/features/todo.svg",
+      "url": "images/love/freedom.png",
       "width": 80,
       "height": 80
     }
