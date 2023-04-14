@@ -13,6 +13,6 @@ main:
     weight: 5
 
 footer:
-  - name: "Kontakt"
-    url: "/contact/"
-    weight: 2
+  - name: "Podmínky"
+    url: "/terms-and-conditions/"
+    weight: 1
