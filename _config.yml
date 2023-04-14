@@ -19,6 +19,8 @@ collections:
     sort_by: weight
   team:
     output: true
+  media:
+    output: true
 
 defaults:
   - scope:
@@ -31,6 +33,11 @@ defaults:
       type: "team"
     values:
       layout: "team"
+  - scope:
+      path: ""
+      type: "media"
+    values:
+      layout: "media"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
