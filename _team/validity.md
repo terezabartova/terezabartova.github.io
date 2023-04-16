@@ -5,7 +5,7 @@ image: "images/team/validity-unsplash.jpg"
 jobtitle: "Mezinárodní nevládní organizace"
 websiteurl: "http://validity.ngo"
 promoted: true
-weight: 3
+weight: 2
 ---
 
 Pomocí práva zajišťujeme rovnost, začlenění a spravedlnost pro lidi s mentálním postižením po celém světě. Validity je mezinárodní nevládní organizace.
