@@ -18,44 +18,4 @@ bodyClass: "page-medias"
     </div>
 </div>
 
-<div class="container pt-6 pb-6">
-    <div class="row">
-        {% assign promoted_medias = site.media | where: "promoted", true | sort: "weight" %}
-        {% for media in promoted_medias %}
-        <div class="col-12 col-md-6 mb-2">
-            <div class="media media-summary media-summary-large">
-                {% if media.image %}
-                <div class="media-image">
-                    <img width="90" height="90" alt="{{ media.title }}" class="img-fluid mb-2" src="{{ media.image | relative_url }}" />
-                </div>
-                {% endif %}
-                <div class="media-meta">
-                    <h2 class="media-name">
-                        {% if media.websiteurl %}
-                            <a href="{{ media.websiteurl }}">{{ media.title }}</a>
-                        {% else %}
-                            {{ media.title }}
-                        {% endif %}
-                    </h2>
-                    <p class="media-description">{{ media.jobtitle }}</p>
-                </div>
-                <div class="media-content">{{ media.content | truncate: 180 }}</div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-    <div class="row pt-6 pb-6">
-        {% assign medias = site.media | where: "promoted", empty | sort: "weight" %}
-        {% for media in medias %}
-        <div class="col-12 col-md-4 mb-3">
-            <div class="media media-summary">
-                {% if media.image %}
-                <div class="media-image">
-                    <img width="60" height="60" alt="{{ media.title }}" class="img-fluid mb-2" src="{{ media.image | relative_url }}" />
-                </div>
-                {% endif %}
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</div>
+{% include medias.html %}
