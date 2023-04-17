@@ -1,8 +1,8 @@
 ---
-title: "Rytmus"
+title: "Rytmus - od klienta k občanovi "
 date: 2018-11-19T10:47:58+10:00
 image: "images/team/rytmus-unsplash.png"
-jobtitle: "Právní kancelář"
+jobtitle: "Nezisková organizace"
 websiteurl: "https://rytmus.org/"
 promoted: true
 weight: 1
