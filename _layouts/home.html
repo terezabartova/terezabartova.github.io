@@ -50,11 +50,11 @@ bodyClass: "page-home"
   <div class="container justify-content-center">
     <div class="row justify-content-center">
       <div class="col-12 col-md-6 col-lg-7 order-md-2 order-xs-2" >
-        <p>{{ page.about }}</p>
+        <p>{{ page.teaching }}</p>
       </div>
-      {% if page.about_image %}
+      {% if page.teaching_image %}
       <div class="col-12 col-md-6 col-lg-5 order-md-1 order-xs-1 position-relative">
-        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.about_image | relURL }}" />
+        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.teaching_image | relURL }}" />
       </div>
       {% endif %}
     </div>
