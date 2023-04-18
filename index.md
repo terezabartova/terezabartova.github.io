@@ -27,7 +27,7 @@ show_call_box: true
 | sídla     | Orelská 611/16, Praha, 101 00 |
 |                   |      |
 |                   |      |
-| **Volejte**       |      |
+| **Volejte**       | **+420 774 394 700** |
 | Pondělí   | 8:30 - 16:30 |
 | Úterý     | 8:30 - 16:30 |
 | Středa    | 8:30 - 16:30 |
@@ -36,7 +36,7 @@ show_call_box: true
 | So/Ne     | Po předchozí domluvě nebo v naléhavém případě |
 |           |            |
 |           |            |
-| **Ostatní Info**   |   |
+|**email** | **advokat@terezabartova.cz**  |
 |IČO | 17649714      |
 |Datovka     | 5b4utfj |
 
