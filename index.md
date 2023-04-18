@@ -21,22 +21,22 @@ intro_call_box_on_mobile: true
 show_call_box: true
 ---
 
-| Adresa    |                 |
-| --------- | --------------- |
-| kanceláře | Jana Zajíce 29, Praha, 170 00 |
-| sídla     | Orelská 611/16, Praha, 101 00 |
-|                   |      |
-|                   |      |
-| **Volejte**       | **+420 774 394 700** |
-| Pondělí   | 8:30 - 16:30 |
-| Úterý     | 8:30 - 16:30 |
-| Středa    | 8:30 - 16:30 |
-| Čtvrtek   | 8:30 - 16:30 |
-| Pátek     | 8:30 - 16:30 |
-| So/Ne     | Po předchozí domluvě nebo v naléhavém případě |
-|           |            |
-|           |            |
-|**email** | **advokat@terezabartova.cz**  |
-|IČO | 17649714      |
-|Datovka     | 5b4utfj |
+| ------------| -------------|
+| **Volejte** | **+420 774 394 700** |
+| Pondělí     | 8:30 - 16:30 |
+| Úterý       | 8:30 - 16:30 |
+| Středa      | 8:30 - 16:30 |
+| Čtvrtek     | 8:30 - 16:30 |
+| Pátek       | 8:30 - 16:30 |
+| So/Ne       | Po předchozí domluvě nebo v naléhavém případě |
+|             |              |
+|             |              |
+| **Adresa**  |              |
+| kanceláře   |: Jana Zajíce 29, Praha, 170 00 |
+| sídla       |: Orelská 611/16, Praha, 101 00 |
+|             |              |
+|             |              |
+|**email**    |: **advokat@terezabartova.cz**  |
+|IČO          |: 17649714    |
+|Datovka      |: 5b4utfj     |
 
