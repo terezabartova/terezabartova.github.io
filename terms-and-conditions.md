@@ -1,7 +1,7 @@
 ---
-title: Podmínky
+title: Informace pro spotřebitele
 layout: terms-and-conditions
-description: Podmínky
+description: Informace pro spotřebitele
 ---
 
 

@@ -16,6 +16,6 @@ main:
     weight: 6
 
 footer:
-  - name: "Podmínky"
+  - name: "Informace pro spotřebitele"
     url: "/terms-and-conditions/"
     weight: 1
