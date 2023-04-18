@@ -1,7 +1,7 @@
 ---
 title: "Za ruku"
 date: 2018-11-19T10:47:58+10:00
-image: "images/team/za-ruku-unsplash.jpg"
+image: "images/team/za-ruku-unsplash.png"
 jobtitle: "Nezisková organizace"
 promoted: true
 weight: 3
