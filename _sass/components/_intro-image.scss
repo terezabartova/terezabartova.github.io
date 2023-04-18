@@ -1,7 +1,6 @@
 .intro-image {
-  width: 100%;
-  height: auto;
-  margin-top: -40px;
+    max-width: 64%;
+    height: auto;
 }
 .intro-image-absolute {
   max-width: none;
@@ -28,6 +27,19 @@
   }
 }
 .intro-image-hide-mobile {
+  display: none;
+  @include media-breakpoint-down(md) {
+    display: block;
+  }
+}
+.intro-call-box-hide-mobile {
+  display: none;
+  @include media-breakpoint-down(sm) {
+    display: block;
+  }
+}
+
+.intro-call-box-hide-large {
   display: none;
   @include media-breakpoint-up(md) {
     display: block;
