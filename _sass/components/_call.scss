@@ -35,10 +35,13 @@
     font-weight: bold;
   }
   .call-phone {
+    font-weight: bold;
     margin-bottom: 5px;
+    color: $red;
   }
   .call-email {
     a {
+      font-weight: bold;
       color: $black;
     }
   }
