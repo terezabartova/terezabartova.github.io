@@ -7,19 +7,20 @@ bodyClass: "page-home"
   <div class="container justify-content-center">
     <div class="row justify-content-center">
       <div class="col-12 col-md-7 col-lg-4 order-md-1 order-xs-1" >
-        {{ content }}
+        <p>{{ page.description }}</p>
         <div class="intro-call-box-hide-large">
           {% if page.show_call_box %}
             {% include call.html show_button=true %}
           {% endif %}
         </div>
       </div>
-      {% if page.intro_image %}
+      {% if page.description_image %}
       <div class="col-12 col-md-5 col-lg-8 order-md-2 order-xs-2 position-relative">
-        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.description_image | relURL }}" />
       </div>
       {% endif %}
       <div class="intro-call-box-hide-mobile">
+      <br>
       {% if page.show_call_box %}
         {% include call.html show_button=true %}
       {% endif %}
@@ -28,20 +29,65 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip">
+<div class="strip strip-grey">
   {% include services.html %}
 </div>
 
-<div class="strip strip-grey">
-  {% include teams.html %}
+<div class="intro">
+  <div class="container justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-5 col-lg-7 order-md-2 order-xs-2" >
+        <p>{{ page.specialization }}</p>
+      </div>
+      {% if page.specialization_image %}
+      <div class="col-12 col-md-7 col-lg-5 order-md-1 order-xs-1 position-relative">
+        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.specialization_image | relURL }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
 </div>
 
 <div class="strip">
+  {% include teams.html %}
+</div>
+
+<div class="intro">
+  <div class="container justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-7 order-md-2 order-xs-2" >
+        <p>{{ page.about }}</p>
+      </div>
+      {% if page.about_image %}
+      <div class="col-12 col-md-6 col-lg-5 order-md-1 order-xs-1 position-relative">
+        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.about_image | relURL }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="strip strip-grey">
   {% include medias.html %}
 </div>
 
+<div class="intro">
+  <div class="container justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-7 order-md-2 order-xs-2" >
+        {{ content }}
+      </div>
+      {% if page.contact_image %}
+      <div class="col-12 col-md-6 col-lg-5 order-md-1 order-xs-1 position-relative">
+        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.contact_image | relURL }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
 {% if site.data.features %}
-<div class="strip strip-grey">
+<div class="strip">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
 
