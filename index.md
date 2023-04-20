@@ -1,11 +1,12 @@
 ---
 title: Domácí stránka
 layout: home
-description: Jmenuji se Tereza Bártová a věnuji se ochraně lidských práv se zaměřením na zranitelné skupiny,
+description_part1: Jmenuji se Tereza Bártová a věnuji se ochraně lidských práv se zaměřením na zranitelné skupiny,
              ať už se jedná o lidi se zdravotním znevýhodněním, duševním onemocněním, seniory nebo děti v těžké životní situaci.
              Baví mě jak přímá práce s klienty, tak strategická činnost zaměřená na systematické zlepšování postavení lidí v obtížných životních situacích.
-             Chráním práva zranitelných, hledám způsoby, jak nejenom napravovat, ale i předcházet porušování základních lidských práv.
-             Každý člověk má právo na rovné a důstojné zacházení. A v případě zranitelných osob je na to potřeba myslet dvojnásob.
+
+description_part2: Chráním práva zranitelných, hledám způsoby, jak nejenom napravovat, ale i předcházet porušování základních lidských práv.
+                   Každý člověk má právo na rovné a důstojné zacházení. A v případě zranitelných osob je na to potřeba myslet dvojnásob.
 
 specialization: Při asistování dětem se zdravotním postižením jsem vnímala, jak systém komplikuje jejich životy, nerespektuje jejich potřeby a jejich rodinám neposkytuje dostatečnou podporu.
                 Proto jsem se jako advokátka rozhodla pomáhat právě osobám se zdravotním postižením nebo duševním onemocněním, uprchlíkům a migrantům, seniorům a dětem v těžké životní situaci.
