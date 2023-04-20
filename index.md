@@ -17,7 +17,7 @@ teaching: Dlouholeté zkušenosti z praxe mě baví předávat dál i formou lek
 description_image: "images/illustrations/terka3-shorter.jpg"
 specialization_image: "images/illustrations/terka.jpg"
 teaching_image: "images/illustrations/terka1.jpg"
-contact_image: "images/illustrations/terka2.jpg"
+contact_image: "images/illustrations/terka2-shorter.jpg"
 
 intro_image_absolute: false
 intro_image_hide_on_mobile: false
