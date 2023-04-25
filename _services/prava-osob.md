@@ -4,6 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 weight: 1
 ---
 
+> Stali jste se svědkem omezování svéprávnosti, nedobrovolné hospitalizace či ochranného léčení?
+
 # Omezování svéprávnosti
 
 > Jak upravit svéprávnost u svého 18letého potomka? Jak předejít riziku nebo vyřešit podpis nevýhodné smlouvy a přitom neztratit možnost se sám rozhodovat?
@@ -23,9 +25,3 @@ Nedobrovolnou hospitalizaci v psychiatrické léčebně je možné nařídit je
 > Potřebujete přeměnit ústavní léčení v ambulantní? Jak zrušit ochranné léčení, když už neplní svůj účel? 
 
 Ochranné léčení může být uloženo jako sankce za trestný čin či čin jinak trestný v případě, že má soud za to, že je třeba vedle sankce či namísto sankce terapeutického působení. V řadě případů však může znamenat větší újmu než nepodmíněný trest odnětí svobody, a to zejména kvůli **nejasné délce trvání**. Pomůžu Vám přeměnit ústavní ochranné léčení na ambulantní, či ho zcela ukončit. 
-
-# Sociální právo a dostupné sociální služby
-
-> Jak získat sociální dávky, na které máte nárok? Nemůžete najít pro sebe nebo své blízké vhodnou sociální službu? Nepřiznali váš nárok na invalidní důchod? 
-
-Ráda vám pomůžu v případě **hledání dostupných a přístupných sociálních služeb**, řešení sociálních dávek, invalidního důchodu, jeho přezkoumání, podání námitek proti nepřiznání invalidního důchod. Jsem připravená Vás také zastoupit v souvisejících soudních řízeních. 
