@@ -1,19 +1,7 @@
 main:
-  - name: "Specializace"
-    url: "/services/"
-    weight: 2
-  - name: "Spolupráce"
-    url: "/team/"
-    weight: 3
-  - name: "Média"
-    url: "/media/"
-    weight: 4
   - name: "O mně"
     url: "/about/"
-    weight: 5
-  - name: "Kontakt"
-    url: "/contact/"
-    weight: 6
+    weight: 1
 
 footer:
   - name: "Informace pro spotřebitele"
