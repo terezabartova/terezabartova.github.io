@@ -5,21 +5,15 @@ bodyClass: "page-home"
 
 <div class="intro">
   <div class="container justify-content-center">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-7 col-lg-6 order-md-2 order-xs-2" >
-        <p>{{ page.description_part1 }}</p>
-        <p>{{ page.description_part2 }}</p>
-        <div class="intro-call-box-hide-large">
-          {% if page.show_call_box %}
-            {% include call.html %}
-          {% endif %}
-        </div>
+    <div class="row">
+      <div class="col-12">
+        <img alt="{{ page.title }}" class="rounded mx-auto d-block home-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.header_image | relURL }}" />
       </div>
-      {% if page.description_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-md-1 order-xs-1 position-relative">
-        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.description_image | relURL }}" />
+      <div class="col-12">
+        <p>
+          {{ page.description }} <a href="about" class="nav-toggle"> ... >></a>
+        </p>
       </div>
-      {% endif %}
     </div>
   </div>
 </div>
@@ -28,59 +22,70 @@ bodyClass: "page-home"
   {% include services.html %}
 </div>
 
-<div class="intro">
-  <div class="container justify-content-center">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-5 col-lg-7 order-md-2 order-xs-2" >
-        <p>{{ page.specialization }}</p>
-      </div>
-      {% if page.specialization_image %}
-      <div class="col-12 col-md-7 col-lg-5 order-md-1 order-xs-1 position-relative">
-        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.specialization_image | relURL }}" />
-      </div>
-      {% endif %}
-    </div>
-  </div>
-</div>
-
-<div class="strip strip-grey">
+<div class="strip">
   {% include teams.html %}
-</div>
-
-<div class="intro">
-  <div class="container justify-content-center">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-7 order-md-2 order-xs-2" >
-        <p>{{ page.teaching }}</p>
-      </div>
-      {% if page.teaching_image %}
-      <div class="col-12 col-md-6 col-lg-5 order-md-1 order-xs-1 position-relative">
-        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.teaching_image | relURL }}" />
-      </div>
-      {% endif %}
-    </div>
-  </div>
 </div>
 
 <div class="strip strip-grey">
   {% include medias.html %}
 </div>
 
+{% if page.footer_image %}
 <div class="intro">
   <div class="container justify-content-center">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-7 order-md-2 order-xs-2" >
-        {{ content }}
-        <br/>
+      <div class="col-12 col-md-6 col-lg-6 order-md-1 order-xs-1 position-relative">
+        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block home-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.footer_image | relURL }}" />
       </div>
-      {% if page.contact_image %}
-      <div class="col-12 col-md-6 col-lg-5 order-md-1 order-xs-1 position-relative">
-        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block intro-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.contact_image | relURL }}" />
+      <div class="col-12 col-md-6 col-lg-4 order-md-2 order-xs-2">
+        <div class="list-group">
+          <div>
+            <div class="d-flex w-100 justify-content-between">
+              <h3 class="mb-1">email</h3>
+            </div>
+            <p class="mb-1">
+              <a href="mailto:{{ .site.data.contact.email }}">
+                {{ site.data.contact.email }}
+              </a>
+            </p>
+          </div>
+          <div>
+            <div class="d-flex w-100 justify-content-between">
+              <h3 class="mb-1">telefon</h3>
+            </div>
+            <p class="user-select-all">+420 774 394 700</p>
+          </div>
+          <div>
+            <div class="d-flex w-100 justify-content-between">
+              <h3 class="mb-1">kancelář</h3>
+            </div>
+            <p class="user-select-all">Jana Zajíce 29, Praha, 170 00</p>
+          </div>
+          <div>
+            <div class="d-flex w-100 justify-content-between">
+              <h3 class="mb-1">sídlo</h3>
+            </div>
+            <p class="user-select-all">Orelská 611/16, Praha, 101 00</p>
+          </div>
+          <div>
+            <div class="d-flex w-100 justify-content-between">
+              <h3 class="mb-1">IČO</h3>
+            </div>
+            <p class="user-select-all">17649714</p>
+          </div>
+          <div>
+            <div class="d-flex w-100 justify-content-between">
+              <h3 class="mb-1">datovka</h3>
+            </div>
+            <p class="user-select-all">5b4utfj</p>
+          </div>
+        </div>
+        </div>
+
       </div>
-      {% endif %}
-    </div>
   </div>
 </div>
+{% endif %}
 
 {% if site.data.features %}
 <div class="strip">
