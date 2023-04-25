@@ -9,12 +9,12 @@
 <!--
     {% include main-menu.html %}
     {% include hamburger.html %}
--->
 
-    <div class="intro-call-box-hide-mobile">
-      {% if page.show_call_box %}
-        {% include call.html %}
-      {% endif %}
-    </div>
+    {% if page.show_call_box %}
+      {% include call.html %}
+    {% endif %}
+-->
+    {% include headline.html %}
+
   </div>
 </div>
