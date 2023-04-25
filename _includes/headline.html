@@ -1,0 +1,10 @@
+<div class="headline">
+  <div class="headline-box-top">
+    {% if site.data.headline.name %}
+        <div class="headline-name user-select-all">{{ site.data.headline.name }}</div>
+    {% endif %}
+    {% if site.data.headline.about %}
+    <div class="headline-about">{{ site.data.headline.about }}</div>
+    {% endif %}
+  </div>
+</div>
