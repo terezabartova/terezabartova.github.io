@@ -8,7 +8,7 @@
                     <h2 class="service-title">
                         <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
                     </h2>
-                    <p>{{ service.content | markdownify | strip_html | truncate: 120 }}</p>
+                    <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
                 </div>
             </div>
         </div>
