@@ -3,10 +3,10 @@ permalink: pretty
 title: 'Tereza Bártová'
 
 logo:
-  mobile: "images/logo/red-rose-dark-256.jpeg"
+  mobile: "images/logo/red-rose-dark-blur-256.jpeg"
   mobile_height: "64px"
-  mobile_width: "96px"
-  desktop: "images/logo/red-rose-dark-256.jpeg"
+  mobile_width: "64px"
+  desktop: "images/logo/red-rose-dark-blur-256.jpeg"
   desktop_height: "64px"
   desktop_width: "64px"
 
