@@ -6,7 +6,7 @@ weight: 1
 
 > Stali jste se svědkem omezování svéprávnosti, nedobrovolné hospitalizace či ochranného léčení?
 
-# Omezování svéprávnosti
+## Omezování svéprávnosti
 
 > Jak upravit svéprávnost u svého 18letého potomka? Jak předejít riziku nebo vyřešit podpis nevýhodné smlouvy a přitom neztratit možnost se sám rozhodovat?
 
@@ -14,13 +14,13 @@ Lidem se zdravotním postižením bývá **často omezována svéprávnost**. V 
 
 Řešením může být například smlouva o nápomoci při právním jednání, zastoupení členem domácnosti nebo opatrovnictví bez omezení svéprávnosti. Ráda Vám **pomůžu vybrat vhodné řešení** a provedu Vás i celým soudním řízením. 
 
-# Nedobrovolná hospitalizace
+## Nedobrovolná hospitalizace
 
 > Potřebujete právní pomoc v detenčním řízení? Jak zjistit, zda trvají důvody pro nedobrovolnou hospitalizaci a jak ji případně ukončit?
 
 Nedobrovolnou hospitalizaci v psychiatrické léčebně je možné nařídit jen **z důvodů stanovených zákonem** a musí trvat jen nezbytně nutnou dobu (nejčastěji dokud hospitalizovaný může ohrožovat sám sebe nebo okolí). Pomůžu Vám přezkoumat, zda trvají důvody pro nedobrovolnou hospitalizaci, provedu Vás soudním řízením a zastoupím Vás i při žádosti o odškodnění v případě nezákonné hospitalizace.
 
-# Ochranné léčení
+## Ochranné léčení
 
 > Potřebujete přeměnit ústavní léčení v ambulantní? Jak zrušit ochranné léčení, když už neplní svůj účel? 
 
