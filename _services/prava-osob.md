@@ -18,7 +18,7 @@ Lidem se zdravotním postižením bývá **často omezována svéprávnost**. V 
 
 > Potřebujete právní pomoc v detenčním řízení? Jak zjistit, zda trvají důvody pro nedobrovolnou hospitalizaci a jak ji případně ukončit?
 
-Nedobrovolnou hospitalizaci v psychiatrické léčebně je možné nařídit jen **z důvodů stanovených zákonem** a musí trvat jen nezbytně nutnou dobu (nejčastěji dokud hospitalizovaný může ohrožovat sám sebe nebo okolí). Pomůžu Vám přezkoumat, zda trvají důvody pro nedobrovolnou hospitalizaci, provedu Vás soudním řízením a zastoupím Vás i při žádosti o odškodnění v případě nezákonné hospitalizace.
+Nedobrovolnou hospitalizaci v psychiatrické léčebně je možné nařídit jen **z důvodů stanovených zákonem** a musí trvat jen nezbytně nutnou dobu (nejčastěji dokud hospitalizovaný může ohrožovat sám sebe nebo okolí). Pomůžu Vám přezkoumat, zda trvají důvody pro nedobrovolnou hospitalizaci, provedu Vás soudním řízením a zastoupím Vás i při žádosti o odškodnění v případě nezákonné hospitalizace.
 
 ## Ochranné léčení
 
