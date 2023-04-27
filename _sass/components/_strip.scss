@@ -1,6 +1,11 @@
 .strip {
   background: white;
   background-repeat: no-repeat;
+  span.rev { unicode-bidi:bidi-override; direction:rtl }
+  span.rev.email:after { content:"@takovda" }
+  span.rev.email:before { content:"zc.avotrab" }
+  span.rev.phone:after { content:" 477 024+" }
+  span.rev.phone:before { content:"007 " }
   p {
     font-size: 1.1rem;
     line-height: 1.3;

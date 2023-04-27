@@ -17,7 +17,3 @@ gem install jekyll bundler
 bundle install
 bundle exec jekyll serve
 ```
-
-## TODO 
-
-- phone / email : protect against crawlers and bots (it should be an image)
