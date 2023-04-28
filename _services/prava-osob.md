@@ -4,7 +4,7 @@ date: 2018-11-18T12:33:46+10:00
 weight: 1
 ---
 
-> Stali jste se svědkem omezování svéprávnosti, nedobrovolné hospitalizace či ochranného léčení?
+> Řešíte úpravu svéprávnosti, nastavení vhodné formy podpory při právním jednání nebo nedobrovolnou hospitalizaci Vás či Vaší blízké osoby?
 
 ## Omezování svéprávnosti
 
