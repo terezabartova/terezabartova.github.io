@@ -15,6 +15,7 @@
     font-style: italic;
   }
   h1 {
+    font-family: $font-family-heading;
     color: $black;
     font-weight: bold;
     @include media-breakpoint-down(xl) {
@@ -45,7 +46,7 @@
 
   }
   h2 {
-    width: 80%;
+    font-family: $font-family-heading;
     color: $black;
     font-weight: normal;
     @include media-breakpoint-down(xl) {
@@ -75,6 +76,7 @@
     }
   }
   h3 {
+    font-family: $font-family-heading;
     font-weight: normal;
     @include media-breakpoint-down(xl) {
       margin-top: 40px;
