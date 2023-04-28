@@ -47,6 +47,7 @@
   h2 {
     width: 80%;
     color: $black;
+    font-weight: normal;
     @include media-breakpoint-down(xl) {
       margin-top: 50px;
       margin-bottom: 30px;
