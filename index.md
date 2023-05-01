@@ -1,9 +1,7 @@
 ---
 title: Tereza Bártová
 layout: home
-headline_name: Jsem Tereza Bártová
-headline_about: Advokátka se zaměřením na oblast lidských práv.
-description: Advokátka se zaměřením na oblast lidských práv.
+description: Advokátka se zaměřením na ochranu lidských práv.
 specialization: Věnuji se právům zranitelných skupin, ať už se jedná o lidi se zdravotním znevýhodněním, duševním onemocněním, seniory nebo děti v těžké životní situaci.
                 Baví mě jak přímá práce s klienty, tak strategická činnost zaměřená na systematické zlepšování postavení lidí v obtížných životních situacích
 
