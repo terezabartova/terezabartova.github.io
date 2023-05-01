@@ -108,23 +108,18 @@
     font-family: $font-family-base;
     color: $steel;
     @include media-breakpoint-down(xl) {
-      text-indent: 20px;
       font-size: 1.4rem;
     }
     @include media-breakpoint-down(lg) {
-      text-indent: 15px;
       font-size: 1.3rem;
     }
     @include media-breakpoint-down(md) {
-      text-indent: 10px;
       font-size: 1.2rem;
     }
     @include media-breakpoint-down(sm) {
-      text-indent: 8px;
       font-size: 1rem;
     }
     @include media-breakpoint-down(xs) {
-      text-indent: 6px;
       font-size: 0.9rem;
     }
   }
