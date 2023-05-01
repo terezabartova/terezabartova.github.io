@@ -4,11 +4,7 @@ title: 'Tereza Bártová'
 
 logo:
   mobile: "images/logo/tb-logo-blur.jpg"
-  mobile_height: "64px"
-  mobile_width: "64px"
   desktop: "images/logo/tb-logo-blur.jpg"
-  desktop_height: "128px"
-  desktop_width: "128px"
 
 home: 
   limit_services: 6
