@@ -38,19 +38,19 @@
     color: $black;
     @include media-breakpoint-down(xl) {
       margin-bottom: 13px;
-      font-size: 1.6rem;
+      font-size: 1.7rem;
     }
     @include media-breakpoint-down(lg) {
       margin-bottom: 11px;
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
     @include media-breakpoint-down(md) {
       margin-bottom: 9px;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
     @include media-breakpoint-down(sm) {
       margin-bottom: 8px;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
     @include media-breakpoint-down(xs) {
       margin-bottom: 8px;
