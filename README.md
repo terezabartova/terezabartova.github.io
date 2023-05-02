@@ -1,6 +1,6 @@
-# Tereza Bártová
+# Tereza Bártová Website
 
-## Ubuntu
+## Debian installation
 
 ```
 # install ruby, jekyll and bundler
