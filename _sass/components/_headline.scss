@@ -44,6 +44,7 @@
   .headline-about {
     font-weight: bold;
     color: $black;
+    opacity: 0.9;
     font-family: $font-family-heading;
     @include media-breakpoint-down(xl) {
       font-size: 1.8rem;
