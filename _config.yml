@@ -3,8 +3,8 @@ permalink: pretty
 title: 'Tereza Bártová'
 
 logo:
-  mobile: "images/logo/tb-logo-blur.jpg"
-  desktop: "images/logo/tb-logo-blur.jpg"
+  mobile: "images/logo/tb-logo-xs.png"
+  desktop: "images/logo/tb-logo-xs.png"
 
 home: 
   limit_services: 6
