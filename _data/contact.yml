@@ -1,0 +1,23 @@
+title: "Contact"
+form:
+  action: "https://formspree.io/f/todo"
+  method: "POST"
+  name: "Jméno"
+  email: "Email"
+  phone: "Telefon"
+  subject: "Předmět"
+  message: "Napište mi zprávu a zavolám zpět"
+office:
+  title: "kancelář"
+  address: "Jana Zajíce 29, Praha 7"
+address:
+  title: "sídlo"
+  address: "Orelská 611/16, Praha 10"
+ico:
+  title: "IČO"
+  id: "17649714"
+datovka:
+  title: "Datová schránka"
+  id: "5b4utfj"
+button:
+  btnText: "Odeslat"

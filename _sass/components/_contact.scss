@@ -1,0 +1,180 @@
+.strip.contact {
+    padding-bottom: 0;
+    background-image: url(../contact-bg.png);
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+}
+.container.contact {
+    background-color: #fff;
+    box-shadow: 0 42px 34px -16px rgba(0, 0, 0, 0.3);
+}
+
+.contact {
+    padding: 40px 20px;
+}
+@media (min-width: 768px) {
+    .contact {
+        padding: 60px 30px;
+    }
+}
+.contact__info {
+    font-family: $font-family-heading;
+    white-space: nowrap;
+    @include media-breakpoint-down(xl) {
+      font-size: 1.3rem;
+    }
+    @include media-breakpoint-down(lg) {
+      font-size: 1.2rem;
+    }
+    @include media-breakpoint-down(md) {
+      font-size: 1.1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      font-size: 1.1rem;
+    }
+    @include media-breakpoint-down(xs) {
+      font-size: 1.0rem;
+    }
+}
+
+.contact__wrap {
+  position: relative;
+}
+
+.contact__wrap:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
+  background-image: url(../scale-of-justice-background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact__info {
+  position: relative;
+}
+
+
+.contact__item {
+    padding: 10px;
+    width: 100%;
+    font-weight: 300;
+    line-height: 2;
+    font-family: $font-family-heading;
+    @include media-breakpoint-down(xl) {
+      font-size: 1.3rem;
+    }
+    @include media-breakpoint-down(lg) {
+      font-size: 1.2rem;
+    }
+    @include media-breakpoint-down(md) {
+      font-size: 1.1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      font-size: 1.0rem;
+    }
+    @include media-breakpoint-down(xs) {
+      font-size: 0.9rem;
+    }
+}
+
+textarea {
+    overflow: auto;
+    margin: 0;
+    font-family: $font-family-heading;
+    resize: vertical;
+    padding: 10px 0;
+    width: 100%;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #dbe0e4;
+    @include media-breakpoint-down(xl) {
+      font-size: 1.3rem;
+    }
+    @include media-breakpoint-down(lg) {
+      font-size: 1.2rem;
+    }
+    @include media-breakpoint-down(md) {
+      font-size: 1.1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      font-size: 1.0rem;
+    }
+    @include media-breakpoint-down(xs) {
+      font-size: 0.9rem;
+    }
+
+}
+
+textarea.form-control {
+}
+textarea.form-control.is-valid {
+    padding-right: calc(1.5em + 0.75rem);
+    background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
+}
+textarea.form-control.is-invalid {
+    padding-right: calc(1.5em + 0.75rem);
+    background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
+}
+textarea:focus {
+    outline: 0;
+}
+
+input {
+    overflow: visible;
+}
+
+input[type="text"],
+input[type="phone"],
+input[type="subject"],
+input[type="email"] {
+    font-family: $font-family-heading;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+    color: #000;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #dbe0e4;
+    @include media-breakpoint-down(xl) {
+      font-size: 1.3rem;
+    }
+    @include media-breakpoint-down(lg) {
+      font-size: 1.2rem;
+    }
+    @include media-breakpoint-down(md) {
+      font-size: 1.1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      font-size: 1.0rem;
+    }
+    @include media-breakpoint-down(xs) {
+      font-size: 0.9rem;
+    }
+}
+input[type="text"]::-webkit-input-placeholder,
+input[type="phone"]::-webkit-input-placeholder,
+input[type="subject"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder {
+    color: #000;
+}
+input[type="text"]::-moz-placeholder,
+input[type="phone"]::-moz-placeholder,
+input[type="subject"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder {
+    color: #000;
+}
+
+input[type="text"]::placeholder,
+input[type="phone"]::placeholder,
+input[type="subject"]::placeholder,
+input[type="email"]::placeholder {
+    color: #000;
+}

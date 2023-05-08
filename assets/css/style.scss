@@ -17,7 +17,7 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Footer
-$footer-background-color: $primary;
+$footer-background-color: darken($primary, 10%);
 $footer-text-color: $white;
 $sub-footer-background-color: darken($primary, 10%);
 $sub-footer-text-color: $white;
@@ -26,8 +26,8 @@ $sub-footer-text-color: $white;
 @import "bootstrap-variables";
 @import "bootstrap/bootstrap-reboot";
 @import "bootstrap/bootstrap-grid";
+@import "bootstrap/list-group";
 // @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
-
 // Libraries
 @import "libraries/hamburgers/hamburgers";
 
@@ -42,6 +42,7 @@ $sub-footer-text-color: $white;
 @import "components/main-menu-mobile";
 @import "components/hamburger";
 @import "components/buttons";
+@import "components/contact";
 @import "components/call";
 @import "components/headline";
 @import "components/title";

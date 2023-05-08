@@ -30,62 +30,6 @@ bodyClass: "page-home"
   {% include medias.html %}
 </div>
 
-{% if page.footer_image %}
-<div class="strip">
-  <div class="container justify-content-center">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-8 pt-4 pb-4 pt-xl-8 pt-lg-7 pt-md-6 pt-sm-5 pb-xl-8 pb-lg-7 pb-md-6 pb-sm-5 order-md-1 order-xs-1 position-relative">
-        <img alt="{{ page.title }}" class="img-fluid rounded mx-auto d-block footer-image{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.footer_image | relURL }}" />
-      </div>
-      <div class="col-12 col-md-4 pt-4 pb-4 pt-xl-8 pt-lg-7 pt-md-6 pt-sm-5 pb-xl-8 pb-lg-7 pb-md-6 pb-sm-5 order-md-2 order-xs-2">
-        <div class="feature">
-          <div>
-            <h3>kontakt</h3>
-            <p><span class="rev email">azeret</span></p>
-            <p><span class="rev phone">493</span></p>
-          </div>
-          <div>
-            <h3>kancelář</h3>
-            <p class="user-select-all">Jana Zajíce 29, Praha 7</p>
-          </div>
-          <div>
-            <h3>sídlo</h3>
-            <p class="user-select-all">Orelská 611/16, Praha 10</p>
-          </div>
-          <div>
-            <h3>IČO</h3>
-            <p class="user-select-all">17649714</p>
-          </div>
-          <div>
-            <h3>ID datové schránky</h3>
-            <p class="user-select-all">5b4utfj</p>
-          </div>
-        </div>
-        </div>
-
-      </div>
-  </div>
+<div class="strip contact">
+  {% include contact.html %}
 </div>
-{% endif %}
-
-{% if site.data.features %}
-<div class="strip">
-  <div class="container pt-4 pb-4 pt-xl-8 pt-lg-7 pt-md-6 pt-sm-5 pb-xl-8 pb-lg-7 pb-md-6 pb-sm-5">
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-6">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <h3 class="feature-content">{{ feature.description }}</h3>
-        </div>
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
-</div>
-{% endif %}

@@ -1,0 +1,59 @@
+<div class="contact container">
+    <div class="contact">
+        <h2>{{ .site.data.contact.title }}</h2>
+        <div class="row pt-2">
+            <div class="col-12 col-md-6">
+                <form action="{{ .site.data.contact.form.action }}" method="{{ .site.data.contact.form.method }}">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <input type="text" name="name" id="name" placeholder="{{ .site.data.contact.form.name }}" required/>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="text" name="subject" id="subject" placeholder="{{ .site.data.contact.form.subject }}" required/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <input type="text" name="phone" id="phone" placeholder="{{ .site.data.contact.form.phone }}" required>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="text" name="email" id="email" placeholder="{{ .site.data.contact.form.email }}" required/>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-12">
+                            <textarea name="message" id="message" cols="30" rows="3" placeholder="{{ .site.data.contact.form.message }}" required></textarea>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-12 pb-4 d-flex justify-content-center">
+                            <button type="submit" class="button">
+                                {{ .site.data.contact.button.btnText }}
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <div class="contact__wrap">
+                    <div class="contact__info">
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column">
+                                <div class="contact__item pb-xs-4">{{ .site.data.contact.address.title }}</div>
+                                <div class="contact__item">{{ .site.data.contact.office.title }}</div>
+                                <div class="contact__item pb-xs-4 pt-4">{{ .site.data.contact.ico.title }}</div>
+                                <div class="contact__item">{{ .site.data.contact.datovka.title }}</div>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="contact__item pb-xs-4">{{ .site.data.contact.address.address | safeHTML }}</div>
+                                <div class="contact__item">{{ .site.data.contact.office.address }}</div>
+                                <div class="contact__item pb-xs-4 pt-4">{{ .site.data.contact.ico.id }}</div>
+                                <div class="contact__item">{{ .site.data.contact.datovka.id }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
