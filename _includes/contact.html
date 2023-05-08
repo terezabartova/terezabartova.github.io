@@ -51,6 +51,14 @@
                                 <div class="contact__item">{{ .site.data.contact.datovka.id }}</div>
                             </div>
                         </div>
+                        {% for feature in site.data.features %}
+                        <div class="row justify-content-center pt-3">
+                            <div class="feature">
+                                <h2 class="feature-title">{{ feature.title }},</h2>
+                                <h3 class="feature-content">{{ feature.description }}</h3>
+                            </div>
+                        </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
