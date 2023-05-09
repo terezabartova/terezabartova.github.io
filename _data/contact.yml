@@ -7,10 +7,10 @@ form:
   phone: "+420 774 394 700"
   message: "Napište mi zprávu a zavolám zpět"
 office:
-  title: "kancelář"
+  title: "Kancelář"
   address: "Jana Zajíce 29, Praha 7"
 address:
-  title: "sídlo"
+  title: "Sídlo"
   address: "Orelská 611/16, Praha 10"
 ico:
   title: "IČO"
