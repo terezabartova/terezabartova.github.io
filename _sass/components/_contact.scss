@@ -20,8 +20,8 @@
 .contact__info {
     font-family: $font-family-heading;
     white-space: nowrap;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
     margin-bottom: 30px;
     @include media-breakpoint-down(xl) {
       font-size: 1.3rem;
