@@ -2,10 +2,9 @@ title: "Kontakt"
 form:
   action: "https://formspree.io/f/todo"
   method: "POST"
-  name: "Jméno"
-  email: "Email"
-  phone: "Telefon"
-  subject: "Předmět"
+  name: "Tereza Bártová"
+  email: "advokat@terezabartova.cz"
+  phone: "+420 774 394 700"
   message: "Napište mi zprávu a zavolám zpět"
 office:
   title: "kancelář"

@@ -5,19 +5,18 @@
             <div class="col-12 col-md-6">
                 <form action="{{ .site.data.contact.form.action }}" method="{{ .site.data.contact.form.method }}">
                     <div class="row">
-                        <div class="col-12 col-sm-6">
-                            <input type="text" name="name" id="name" placeholder="{{ .site.data.contact.form.name }}" required/>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="text" name="subject" id="subject" placeholder="{{ .site.data.contact.form.subject }}" required/>
+                        <div class="col-12">
+                            <input type="text" name="name" id="name" placeholder="{{ .site.data.contact.form.name }}" minlength="3" maxlength="30" required />
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-6">
-                            <input type="text" name="phone" id="phone" placeholder="{{ .site.data.contact.form.phone }}" required>
+                        <div class="col-12">
+                            <input type="tel" name="phone" id="phone" placeholder="{{ .site.data.contact.form.phone }}" pattern="^\+((?:9[679]|8[035789]|6[789]|5[90]|42|3[578]|2[1-689])|9[0-58]|8[1246]|6[0-6]|5[1-8]|4[013-9]|3[0-469]|2[70]|7|1)(?:\W*\d){0,13}\d$" required />
                         </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="text" name="email" id="email" placeholder="{{ .site.data.contact.form.email }}" required/>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="email" name="email" id="email" placeholder="{{ .site.data.contact.form.email }}" required />
                         </div>
                     </div>
                     <div class="row pt-4">

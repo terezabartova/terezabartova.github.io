@@ -20,6 +20,9 @@
 .contact__info {
     font-family: $font-family-heading;
     white-space: nowrap;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
     @include media-breakpoint-down(xl) {
       font-size: 1.3rem;
     }
@@ -55,11 +58,6 @@
   background-size: cover;
 }
 
-.contact__info {
-  position: relative;
-}
-
-
 .contact__item {
     padding: 10px;
     width: 100%;
@@ -84,9 +82,10 @@
 }
 
 textarea {
+    font-family: $font-family-heading;
+    opacity: 0.6;
     overflow: auto;
     margin: 0;
-    font-family: $font-family-heading;
     resize: vertical;
     padding: 10px 0;
     width: 100%;
@@ -111,13 +110,12 @@ textarea {
 
 }
 
-textarea.form-control {
-}
-textarea.form-control.is-valid {
+input:valid {
     padding-right: calc(1.5em + 0.75rem);
     background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
 }
-textarea.form-control.is-invalid {
+input:out-of-range,
+input:invalid {
     padding-right: calc(1.5em + 0.75rem);
     background-position: top calc(0.375em + 0.1875rem) right calc(0.375em + 0.1875rem);
 }
@@ -130,14 +128,14 @@ input {
 }
 
 input[type="text"],
-input[type="phone"],
-input[type="subject"],
+input[type="tel"],
 input[type="email"] {
     font-family: $font-family-heading;
+    opacity: 0.6;
     padding: 10px 0;
     width: 100%;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 2;
     color: #000;
     border: none;
@@ -160,21 +158,18 @@ input[type="email"] {
     }
 }
 input[type="text"]::-webkit-input-placeholder,
-input[type="phone"]::-webkit-input-placeholder,
-input[type="subject"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
 input[type="email"]::-webkit-input-placeholder {
     color: #000;
 }
 input[type="text"]::-moz-placeholder,
-input[type="phone"]::-moz-placeholder,
-input[type="subject"]::-moz-placeholder,
+input[type="tel"]::-moz-placeholder,
 input[type="email"]::-moz-placeholder {
     color: #000;
 }
 
 input[type="text"]::placeholder,
-input[type="phone"]::placeholder,
-input[type="subject"]::placeholder,
+input[type="tel"]::placeholder,
 input[type="email"]::placeholder {
     color: #000;
 }
