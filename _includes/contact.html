@@ -2,7 +2,7 @@
     <div class="contact">
         <h2>{{ .site.data.contact.title }}</h2>
         <div class="row pt-2">
-            <div class="col-12 col-md-6">
+            <div class="col-12 pt-4 col-md-6">
                 <form action="{{ .site.data.contact.form.action }}" method="{{ .site.data.contact.form.method }}">
                     <div class="row">
                         <div class="col-12">
@@ -19,13 +19,13 @@
                             <input type="email" name="email" id="email" placeholder="{{ .site.data.contact.form.email }}" minlength="5" maxlength="40" required />
                         </div>
                     </div>
-                    <div class="row pt-4">
+                    <div class="row">
                         <div class="col-12">
                             <textarea name="message" id="message" cols="30" rows="3" placeholder="{{ .site.data.contact.form.message }}" minlength="10" required></textarea>
                         </div>
                     </div>
-                    <div class="row pt-4">
-                        <div class="col-12 pb-4 d-flex justify-content-center">
+                    <div class="row pt-5">
+                        <div class="col-12 pb-5 d-flex justify-content-center">
                             <button type="submit" class="button">
                                 {{ .site.data.contact.button.btnText }}
                             </button>
@@ -38,20 +38,20 @@
                     <div class="contact__info">
                         <div class="d-flex flex-row">
                             <div class="d-flex flex-column">
-                                <div class="contact__item pb-xs-4">{{ .site.data.contact.address.title }}</div>
+                                <div class="contact__item pt-5">{{ .site.data.contact.address.title }}</div>
                                 <div class="contact__item">{{ .site.data.contact.office.title }}</div>
-                                <div class="contact__item pb-xs-4 pt-4">{{ .site.data.contact.ico.title }}</div>
+                                <div class="contact__item">{{ .site.data.contact.ico.title }}</div>
                                 <div class="contact__item">{{ .site.data.contact.datovka.title }}</div>
                             </div>
                             <div class="d-flex flex-column">
-                                <div class="contact__item pb-xs-4">{{ .site.data.contact.address.address | safeHTML }}</div>
+                                <div class="contact__item pt-5 ">{{ .site.data.contact.address.address | safeHTML }}</div>
                                 <div class="contact__item">{{ .site.data.contact.office.address }}</div>
-                                <div class="contact__item pb-xs-4 pt-4">{{ .site.data.contact.ico.id }}</div>
+                                <div class="contact__item">{{ .site.data.contact.ico.id }}</div>
                                 <div class="contact__item">{{ .site.data.contact.datovka.id }}</div>
                             </div>
                         </div>
                         {% for feature in site.data.features %}
-                        <div class="row justify-content-center pt-3">
+                        <div class="row justify-content-center pt-6">
                             <div class="feature">
                                 <h2 class="feature-title">{{ feature.title }},</h2>
                                 <h3 class="feature-content">{{ feature.description }}</h3>
