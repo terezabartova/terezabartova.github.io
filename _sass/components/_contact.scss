@@ -83,10 +83,11 @@
 
 textarea {
     font-family: $font-family-heading;
-    opacity: 0.6;
+    opacity: 0.7;
     overflow: auto;
     margin: 0;
     resize: vertical;
+    font-weight: 300;
     padding: 10px 0;
     width: 100%;
     color: #000;
@@ -131,11 +132,11 @@ input[type="text"],
 input[type="tel"],
 input[type="email"] {
     font-family: $font-family-heading;
-    opacity: 0.6;
+    opacity: 0.7;
     padding: 10px 0;
     width: 100%;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 2;
     color: #000;
     border: none;
