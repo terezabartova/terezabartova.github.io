@@ -6,12 +6,9 @@ form:
   email: "advokat@terezabartova.cz"
   phone: "+420 774 394 700"
   message: "Nebo mi napište zprávu zde"
-office:
-  title: "Kancelář"
-  address: "Jana Zajíce 29, Praha 7"
 address:
   title: "Sídlo"
-  address: "Orelská 611/16, Praha 10"
+  address: "Španělská 770/2, Praha 2"
 ico:
   title: "IČO"
   id: "17649714"
